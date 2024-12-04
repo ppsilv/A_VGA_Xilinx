@@ -1,0 +1,363 @@
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+XSLTProcess "graka_build.xml"
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+XSLTProcess "graka_build.xml"
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+XSLTProcess "graka_build.xml"
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+XSLTProcess "graka_build.xml"
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+XSLTProcess "graka_build.xml"
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+XSLTProcess "graka_build.xml"
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+sch2vhdl -family xc9500 -flat -suppress -w GraKa.sch graka.vhf
+xst -intstyle ise -ifn __projnav/graka.xst -ofn graka.syr
+ngdbuild -dd _ngo -uc graka.ucf -p xc9500 graka.ngc graka.ngd
+cpldfit -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+hprep6 -s IEEE1149 -n graka -i graka
+sch2vhdl -intstyle ise -family xc9500 -flat -suppress -w "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/graka.sch" GraKa.vhf
+xst -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -ifn graka.xst -ofn graka.syr
+ngdbuild -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -dd _ngo -uc "hvlogik.ucf" -p xc9500 "graka.ngc" graka.ngd
+cpldfit -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+XSLTProcess -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" graka_build.xml
+tsim -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise graka graka.nga
+taengine -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -f graka -w --format html1 -l C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/graka_html/tim/timing_report.htm
+hprep6 -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -s IEEE1149 -n graka -i graka
+ngdbuild -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -dd _ngo -uc "hvlogik.ucf" -p xc9500 "graka.ngc" graka.ngd
+cpldfit -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+XSLTProcess -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" graka_build.xml
+tsim -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise graka graka.nga
+taengine -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -f graka -w --format html1 -l C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/graka_html/tim/timing_report.htm
+hprep6 -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -s IEEE1149 -n graka -i graka
+ngdbuild -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -dd _ngo -uc "graka.ucf" -p xc9500 "graka.ngc" graka.ngd
+cpldfit -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -p xc9572-15-PC84 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd
+XSLTProcess -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" graka_build.xml
+tsim -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise graka graka.nga
+taengine -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -intstyle ise -f graka -w --format html1 -l C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/graka_html/tim/timing_report.htm
+hprep6 -ise "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ise" -s IEEE1149 -n graka -i graka

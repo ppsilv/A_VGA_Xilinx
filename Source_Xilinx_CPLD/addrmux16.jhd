@@ -1,0 +1,5 @@
+MODULE addrmux16
+	SUBMODULE addrmux
+		INSTANCE XLXI_1
+	SUBMODULE addrmux
+		INSTANCE XLXI_2

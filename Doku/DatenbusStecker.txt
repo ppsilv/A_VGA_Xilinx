@@ -1,0 +1,17 @@
+DatenBus Steckerbelegung
+
+Pin 	Funktion
+1	Daten1
+2	Daten0
+3	Daten3
+4	Daten2
+5	Daten5
+6	Daten4
+7	Daten7
+8	Daten6
+9	A1
+10	A0
+11	N.C.
+12	WR
+13	GND
+14	VCC (+5V)

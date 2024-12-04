@@ -1,0 +1,6 @@
+vhdl work "hcounter.vhf"
+vhdl work "HVLogik.vhf"
+vhdl work "ADDRMUX.vhf"
+vhdl work "rgb_latch.vhf"
+vhdl work "GraKa.vhf"
+vhdl work "AddrMux16.vhf"

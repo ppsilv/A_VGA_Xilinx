@@ -1,0 +1,7 @@
+sch2vhdl -family xc9500 -flat -suppress -w HVLogik.sch hvlogik.vhf
+sch2vhdl -family xc9500 -flat -suppress -w HVLogik.sch hvlogik.vhf
+sch2vhdl -family xc9500 -flat -suppress -w HVLogik.sch hvlogik.vhf
+sch2vhdl -family xc9500 -flat -suppress -w HVLogik.sch hvlogik.vhf
+sch2vhdl -family xc9500 -flat -suppress -w HVLogik.sch hvlogik.vhf
+sch2vhdl -family xc9500 -flat -suppress -w HVLogik.sch hvlogik.vhf
+sch2vhdl -intstyle ise -family xc9500 -flat -suppress -w "C:/Dokumente und Einstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/HVLogik.sch" HVLogik.vhf

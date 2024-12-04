@@ -1,0 +1,22 @@
+Partlist
+
+Part		Value				Bemerkung        
+
+C1			0,1µF          
+C2			0,1µF          
+C3			0,1µF          
+IC1			UM61256K-25   		Cache Speicher von einem alten 486 Mainboard
+IC2			UM61256K-25 		SRAM 32K x 8
+QG1			VGA-Buchse            
+R1			1KOhm             
+R2			470Ohm              
+R3			1KOhm             
+R4			470Ohm               
+R5			1Kohm               
+R6			470Ohm               
+R7			56Ohm               
+R8			56Ohm              
+SV1			PROG-Stecker         
+SV2			DatenBus             
+X1			40MHz				(Mode 640x480 75Hz) oder 32MHz (Mode 640x480 60Hz)             
+XC9572		XC9572PC84-15

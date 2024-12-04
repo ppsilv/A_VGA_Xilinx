@@ -1,0 +1,15 @@
+8 Bit Grafikkarte für µC
+
+
+Garfikkarte hat eine Auflösung von 256x256Pixel mit 32Farben (6Bit)
+Unterstützt 60Hz mit 32MHz Quarz und 75Hz mit 40Mhz Quarz im Auflösungsmodus 640x480
+
+
+Adressen:
+
+Register 0 = Pixel in horizontaler Richtung (8Bit) Spalte
+Register 1 = Pixel in Verticaler Richtung (8Bit) Zeile
+Register 2 = Farbe (6Bit)
+Register 3 = not use
+
+

@@ -1,0 +1,113 @@
+iMPACT Version: 
+iMPACT log file Started on Sat Sep 16 01:07:35 2006
+
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : loadProjectFile -file "C:/Dokumente undEinstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ipf"
+'1': Loading file 'c:/dokumente undeinstellungen/besitzer/desktop/source_xilinx_cpld/graka.jed' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/xc9500/data/xc9572.bsd...
+INFO:iMPACT:501 - '1': Added Device xc9572 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : loadProjectFile -file "C:/Dokumente undEinstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ipf"
+'1': Loading file 'c:/dokumente undeinstellungen/besitzer/desktop/source_xilinx_cpld/graka.jed' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/xc9500/data/xc9572.bsd...
+INFO:iMPACT:501 - '1': Added Device xc9572 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+ Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+Cable connection established.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+Attempting to identify devices in the boundary-scan chain configuration...// *** BATCH CMD : Identify 
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xc9572, Version : 2
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/xc9500/data/xc9572.bsd...
+INFO:iMPACT:501 - '1': Added Device xc9572 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Chain TCK freq = 0.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM 
+// *** BATCH CMD : assignFile -p 1 -file "C:/Dokumente undEinstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/graka.jed"
+'1': Loading file 'C:/Dokumente undEinstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/graka.jed' ...
+done.
+INFO:iMPACT:501 - '1': Added Device xc9572 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : Program -p 1 -e -defaultVersion 0 
+PROGRESS_START - Starting Operation.
+Chain TCK freq = 0.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Erasing device...
+'1': Erasure completed successfully.
+'1': Programming device...
+done.
+'1': Programming completed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =     13 sec.
+// *** BATCH CMD : saveProjectFile -file "C:/Dokumente undEinstellungen/Besitzer/Desktop/Source_Xilinx_CPLD/Video1.ipf"

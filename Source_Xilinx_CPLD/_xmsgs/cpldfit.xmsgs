@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Cpld" num="908" delta="unknown" >Converting I/O pin &apos;<arg fmt="%s" index="1">ExMemData&lt;6&gt;</arg>&apos; to an output pin.  The pin feedback is unused after optimization.  Please verify functionality via simulation.
+</msg>
+
+<msg type="warning" file="Cpld" num="908" delta="unknown" >Converting I/O pin &apos;<arg fmt="%s" index="1">ExMemData&lt;7&gt;</arg>&apos; to an output pin.  The pin feedback is unused after optimization.  Please verify functionality via simulation.
+</msg>
+
+</messages>
