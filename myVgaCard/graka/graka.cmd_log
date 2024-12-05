@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.xst" -ofn "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc graka.ucf -p xc9572-PC84-15 graka.ngc graka.ngd  
+cpldfit -intstyle ise -p xc9572-15-PC84 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk graka.ngd 
+XSLTProcess graka_build.xml 
+tsim -intstyle ise graka graka.nga 
+taengine -intstyle ise -f graka -w --format html1 -l graka_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n graka -i graka 

@@ -1,0 +1,597 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: graka.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "graka.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "graka"
+Output Format                      : NGC
+Target Device                      : XC9500 CPLDs
+
+---- Source Options
+Top Module Name                    : graka
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf" in Library work.
+Entity <FTCE_MXILINX_HVLogik> compiled.
+Entity <FTCE_MXILINX_HVLogik> (Architecture <BEHAVIORAL>) compiled.
+Entity <CB8CE_MXILINX_HVLogik> compiled.
+Entity <CB8CE_MXILINX_HVLogik> (Architecture <BEHAVIORAL>) compiled.
+Entity <AND8_MXILINX_HVLogik> compiled.
+Entity <AND8_MXILINX_HVLogik> (Architecture <BEHAVIORAL>) compiled.
+Entity <BUF8_MXILINX_HVLogik> compiled.
+Entity <BUF8_MXILINX_HVLogik> (Architecture <BEHAVIORAL>) compiled.
+Entity <CB16CE_MXILINX_HVLogik> compiled.
+Entity <CB16CE_MXILINX_HVLogik> (Architecture <BEHAVIORAL>) compiled.
+Entity <hcounter_MUSER_HVLogik> compiled.
+Entity <hcounter_MUSER_HVLogik> (Architecture <BEHAVIORAL>) compiled.
+Entity <HVLogik> compiled.
+Entity <HVLogik> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" in Library work.
+Entity <FD_MXILINX_graka> compiled.
+Entity <FD_MXILINX_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <FD8_MXILINX_graka> compiled.
+Entity <FD8_MXILINX_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <BUFE8_MXILINX_graka> compiled.
+Entity <BUFE8_MXILINX_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <FDC_MXILINX_graka> compiled.
+Entity <FDC_MXILINX_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <FTCE_MXILINX_graka> compiled.
+Entity <FTCE_MXILINX_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <CB4CE_MXILINX_graka> compiled.
+Entity <CB4CE_MXILINX_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <D2_4E_MXILINX_graka> compiled.
+Entity <D2_4E_MXILINX_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <OBUFE_MXILINX_graka> compiled.
+Entity <OBUFE_MXILINX_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <rgb_latch_MUSER_graka> compiled.
+Entity <rgb_latch_MUSER_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <M2_1_MXILINX_graka> compiled.
+Entity <M2_1_MXILINX_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <addrmux_MUSER_graka> compiled.
+Entity <addrmux_MUSER_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <addrmux16_MUSER_graka> compiled.
+Entity <addrmux16_MUSER_graka> (Architecture <BEHAVIORAL>) compiled.
+Entity <graka> compiled.
+Entity <graka> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux16.vhf" in Library work.
+Entity <M2_1_MXILINX_addrmux16> compiled.
+Entity <M2_1_MXILINX_addrmux16> (Architecture <BEHAVIORAL>) compiled.
+Entity <addrmux_MUSER_addrmux16> compiled.
+Entity <addrmux_MUSER_addrmux16> (Architecture <BEHAVIORAL>) compiled.
+Entity <addrmux16> compiled.
+Entity <addrmux16> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/rgb_latch.vhf" in Library work.
+Entity <FD_MXILINX_rgb_latch> compiled.
+Entity <FD_MXILINX_rgb_latch> (Architecture <BEHAVIORAL>) compiled.
+Entity <OBUFE_MXILINX_rgb_latch> compiled.
+Entity <OBUFE_MXILINX_rgb_latch> (Architecture <BEHAVIORAL>) compiled.
+Entity <rgb_latch> compiled.
+Entity <rgb_latch> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux.vhf" in Library work.
+Entity <M2_1_MXILINX_addrmux> compiled.
+Entity <M2_1_MXILINX_addrmux> (Architecture <BEHAVIORAL>) compiled.
+Entity <addrmux> compiled.
+Entity <addrmux> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf" in Library work.
+Entity <AND8_MXILINX_hcounter> compiled.
+Entity <AND8_MXILINX_hcounter> (Architecture <BEHAVIORAL>) compiled.
+Entity <BUF8_MXILINX_hcounter> compiled.
+Entity <BUF8_MXILINX_hcounter> (Architecture <BEHAVIORAL>) compiled.
+Entity <FTCE_MXILINX_hcounter> compiled.
+Entity <FTCE_MXILINX_hcounter> (Architecture <BEHAVIORAL>) compiled.
+Entity <CB16CE_MXILINX_hcounter> compiled.
+Entity <CB16CE_MXILINX_hcounter> (Architecture <BEHAVIORAL>) compiled.
+Entity <hcounter> compiled.
+Entity <hcounter> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <rgb_latch_MUSER_graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <D2_4E_MXILINX_graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <addrmux16_MUSER_graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <CB4CE_MXILINX_graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <FDC_MXILINX_graka> in library <work> (architecture <BEHAVIORAL>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <BUFE8_MXILINX_graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <FD8_MXILINX_graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <hvlogik> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <OBUFE_MXILINX_graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <FD_MXILINX_graka> in library <work> (architecture <BEHAVIORAL>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <addrmux_MUSER_graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <FTCE_MXILINX_graka> in library <work> (architecture <BEHAVIORAL>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <hcounter_MUSER_HVLogik> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <CB8CE_MXILINX_HVLogik> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <M2_1_MXILINX_graka> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <CB16CE_MXILINX_HVLogik> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <BUF8_MXILINX_HVLogik> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <AND8_MXILINX_HVLogik> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <FTCE_MXILINX_HVLogik> in library <work> (architecture <BEHAVIORAL>) with generics.
+	INIT = '0'
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <graka> in library <work> (Architecture <BEHAVIORAL>).
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" line 1014: Unconnected output port 'D0' of component 'D2_4E_MXILINX_graka'.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" line 1014: Unconnected output port 'D1' of component 'D2_4E_MXILINX_graka'.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" line 1014: Unconnected output port 'D2' of component 'D2_4E_MXILINX_graka'.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" line 1014: Unconnected output port 'D3' of component 'D2_4E_MXILINX_graka'.
+    Set user-defined property "HU_SET =  XLXI_44_35" for instance <XLXI_44> in unit <graka>.
+    Set user-defined property "HU_SET =  XLXI_67_34" for instance <XLXI_67> in unit <graka>.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" line 1047: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_graka'.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" line 1047: Unconnected output port 'Q3' of component 'CB4CE_MXILINX_graka'.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" line 1047: Unconnected output port 'TC' of component 'CB4CE_MXILINX_graka'.
+    Set user-defined property "HU_SET =  XLXI_99_36" for instance <XLXI_99> in unit <graka>.
+    Set user-defined property "HU_SET =  XLXI_106_37" for instance <XLXI_106> in unit <graka>.
+    Set user-defined property "HU_SET =  XLXI_109_38" for instance <XLXI_109> in unit <graka>.
+    Set user-defined property "HU_SET =  XLXI_110_39" for instance <XLXI_110> in unit <graka>.
+    Set user-defined property "HU_SET =  XLXI_111_40" for instance <XLXI_111> in unit <graka>.
+Entity <graka> analyzed. Unit <graka> generated.
+
+Analyzing Entity <rgb_latch_MUSER_graka> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  XLXI_1_12" for instance <XLXI_1> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_2_13" for instance <XLXI_2> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_3_17" for instance <XLXI_3> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_4_14" for instance <XLXI_4> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_5_15" for instance <XLXI_5> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_6_16" for instance <XLXI_6> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_25_18" for instance <XLXI_25> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_26_19" for instance <XLXI_26> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_27_20" for instance <XLXI_27> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_28_21" for instance <XLXI_28> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_29_22" for instance <XLXI_29> in unit <rgb_latch_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_30_23" for instance <XLXI_30> in unit <rgb_latch_MUSER_graka>.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" line 669: Unconnected output port 'Q' of component 'FD_MXILINX_graka'.
+    Set user-defined property "HU_SET =  XLXI_43_24" for instance <XLXI_43> in unit <rgb_latch_MUSER_graka>.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf" line 674: Unconnected output port 'Q' of component 'FD_MXILINX_graka'.
+    Set user-defined property "HU_SET =  XLXI_57_25" for instance <XLXI_57> in unit <rgb_latch_MUSER_graka>.
+Entity <rgb_latch_MUSER_graka> analyzed. Unit <rgb_latch_MUSER_graka> generated.
+
+Analyzing Entity <OBUFE_MXILINX_graka> in library <work> (Architecture <BEHAVIORAL>).
+Entity <OBUFE_MXILINX_graka> analyzed. Unit <OBUFE_MXILINX_graka> generated.
+
+Analyzing generic Entity <FD_MXILINX_graka> in library <work> (Architecture <BEHAVIORAL>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <U0> in unit <FD_MXILINX_graka>.
+Entity <FD_MXILINX_graka> analyzed. Unit <FD_MXILINX_graka> generated.
+
+Analyzing Entity <D2_4E_MXILINX_graka> in library <work> (Architecture <BEHAVIORAL>).
+Entity <D2_4E_MXILINX_graka> analyzed. Unit <D2_4E_MXILINX_graka> generated.
+
+Analyzing Entity <addrmux16_MUSER_graka> in library <work> (Architecture <BEHAVIORAL>).
+Entity <addrmux16_MUSER_graka> analyzed. Unit <addrmux16_MUSER_graka> generated.
+
+Analyzing Entity <addrmux_MUSER_graka> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  XLXI_2_26" for instance <XLXI_2> in unit <addrmux_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_3_27" for instance <XLXI_3> in unit <addrmux_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_4_28" for instance <XLXI_4> in unit <addrmux_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_5_29" for instance <XLXI_5> in unit <addrmux_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_6_30" for instance <XLXI_6> in unit <addrmux_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_7_31" for instance <XLXI_7> in unit <addrmux_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_8_32" for instance <XLXI_8> in unit <addrmux_MUSER_graka>.
+    Set user-defined property "HU_SET =  XLXI_9_33" for instance <XLXI_9> in unit <addrmux_MUSER_graka>.
+Entity <addrmux_MUSER_graka> analyzed. Unit <addrmux_MUSER_graka> generated.
+
+Analyzing Entity <M2_1_MXILINX_graka> in library <work> (Architecture <BEHAVIORAL>).
+Entity <M2_1_MXILINX_graka> analyzed. Unit <M2_1_MXILINX_graka> generated.
+
+Analyzing Entity <CB4CE_MXILINX_graka> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  U0_8" for instance <U0> in unit <CB4CE_MXILINX_graka>.
+    Set user-defined property "HU_SET =  U1_9" for instance <U1> in unit <CB4CE_MXILINX_graka>.
+    Set user-defined property "HU_SET =  U2_10" for instance <U2> in unit <CB4CE_MXILINX_graka>.
+    Set user-defined property "HU_SET =  U3_11" for instance <U3> in unit <CB4CE_MXILINX_graka>.
+Entity <CB4CE_MXILINX_graka> analyzed. Unit <CB4CE_MXILINX_graka> generated.
+
+Analyzing generic Entity <FTCE_MXILINX_graka> in library <work> (Architecture <BEHAVIORAL>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_graka>.
+Entity <FTCE_MXILINX_graka> analyzed. Unit <FTCE_MXILINX_graka> generated.
+
+Analyzing generic Entity <FDC_MXILINX_graka> in library <work> (Architecture <BEHAVIORAL>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <U0> in unit <FDC_MXILINX_graka>.
+Entity <FDC_MXILINX_graka> analyzed. Unit <FDC_MXILINX_graka> generated.
+
+Analyzing Entity <BUFE8_MXILINX_graka> in library <work> (Architecture <BEHAVIORAL>).
+Entity <BUFE8_MXILINX_graka> analyzed. Unit <BUFE8_MXILINX_graka> generated.
+
+Analyzing Entity <FD8_MXILINX_graka> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  Q0_4" for instance <Q0> in unit <FD8_MXILINX_graka>.
+    Set user-defined property "HU_SET =  Q1_5" for instance <Q1> in unit <FD8_MXILINX_graka>.
+    Set user-defined property "HU_SET =  Q2_6" for instance <Q2> in unit <FD8_MXILINX_graka>.
+    Set user-defined property "HU_SET =  Q3_7" for instance <Q3> in unit <FD8_MXILINX_graka>.
+    Set user-defined property "HU_SET =  Q4_2" for instance <Q4> in unit <FD8_MXILINX_graka>.
+    Set user-defined property "HU_SET =  Q5_3" for instance <Q5> in unit <FD8_MXILINX_graka>.
+    Set user-defined property "HU_SET =  Q6_1" for instance <Q6> in unit <FD8_MXILINX_graka>.
+    Set user-defined property "HU_SET =  Q7_0" for instance <Q7> in unit <FD8_MXILINX_graka>.
+Entity <FD8_MXILINX_graka> analyzed. Unit <FD8_MXILINX_graka> generated.
+
+Analyzing Entity <hvlogik> in library <work> (Architecture <BEHAVIORAL>).
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf" line 902: Unconnected output port 'CEO' of component 'CB8CE_MXILINX_HVLogik'.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf" line 902: Unconnected output port 'TC' of component 'CB8CE_MXILINX_HVLogik'.
+    Set user-defined property "HU_SET =  XLXI_131_27" for instance <XLXI_131> in unit <hvlogik>.
+Entity <hvlogik> analyzed. Unit <hvlogik> generated.
+
+Analyzing Entity <hcounter_MUSER_HVLogik> in library <work> (Architecture <BEHAVIORAL>).
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf" line 773: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_HVLogik'.
+WARNING:Xst:753 - "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf" line 773: Unconnected output port 'TC' of component 'CB16CE_MXILINX_HVLogik'.
+    Set user-defined property "HU_SET =  XLXI_1_24" for instance <XLXI_1> in unit <hcounter_MUSER_HVLogik>.
+    Set user-defined property "HU_SET =  XLXI_10_25" for instance <XLXI_10> in unit <hcounter_MUSER_HVLogik>.
+    Set user-defined property "HU_SET =  XLXI_13_26" for instance <XLXI_13> in unit <hcounter_MUSER_HVLogik>.
+Entity <hcounter_MUSER_HVLogik> analyzed. Unit <hcounter_MUSER_HVLogik> generated.
+
+Analyzing Entity <CB16CE_MXILINX_HVLogik> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  Q0_9" for instance <Q0> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q1_8" for instance <Q1> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q2_11" for instance <Q2> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q3_10" for instance <Q3> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q4_15" for instance <Q4> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q5_14" for instance <Q5> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q6_13" for instance <Q6> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q7_12" for instance <Q7> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q8_16" for instance <Q8> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q9_17" for instance <Q9> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q10_18" for instance <Q10> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q11_19" for instance <Q11> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q12_20" for instance <Q12> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q13_21" for instance <Q13> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q14_22" for instance <Q14> in unit <CB16CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q15_23" for instance <Q15> in unit <CB16CE_MXILINX_HVLogik>.
+Entity <CB16CE_MXILINX_HVLogik> analyzed. Unit <CB16CE_MXILINX_HVLogik> generated.
+
+Analyzing generic Entity <FTCE_MXILINX_HVLogik> in library <work> (Architecture <BEHAVIORAL>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_HVLogik>.
+Entity <FTCE_MXILINX_HVLogik> analyzed. Unit <FTCE_MXILINX_HVLogik> generated.
+
+Analyzing Entity <BUF8_MXILINX_HVLogik> in library <work> (Architecture <BEHAVIORAL>).
+Entity <BUF8_MXILINX_HVLogik> analyzed. Unit <BUF8_MXILINX_HVLogik> generated.
+
+Analyzing Entity <AND8_MXILINX_HVLogik> in library <work> (Architecture <BEHAVIORAL>).
+Entity <AND8_MXILINX_HVLogik> analyzed. Unit <AND8_MXILINX_HVLogik> generated.
+
+Analyzing Entity <CB8CE_MXILINX_HVLogik> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  Q0_6" for instance <Q0> in unit <CB8CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q1_7" for instance <Q1> in unit <CB8CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q2_3" for instance <Q2> in unit <CB8CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q3_4" for instance <Q3> in unit <CB8CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q4_5" for instance <Q4> in unit <CB8CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q5_2" for instance <Q5> in unit <CB8CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q6_1" for instance <Q6> in unit <CB8CE_MXILINX_HVLogik>.
+    Set user-defined property "HU_SET =  Q7_0" for instance <Q7> in unit <CB8CE_MXILINX_HVLogik>.
+Entity <CB8CE_MXILINX_HVLogik> analyzed. Unit <CB8CE_MXILINX_HVLogik> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <D2_4E_MXILINX_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <D2_4E_MXILINX_graka> synthesized.
+
+
+Synthesizing Unit <FDC_MXILINX_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <FDC_MXILINX_graka> synthesized.
+
+
+Synthesizing Unit <BUFE8_MXILINX_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <BUFE8_MXILINX_graka> synthesized.
+
+
+Synthesizing Unit <OBUFE_MXILINX_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <OBUFE_MXILINX_graka> synthesized.
+
+
+Synthesizing Unit <FD_MXILINX_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <FD_MXILINX_graka> synthesized.
+
+
+Synthesizing Unit <M2_1_MXILINX_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <M2_1_MXILINX_graka> synthesized.
+
+
+Synthesizing Unit <FTCE_MXILINX_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <FTCE_MXILINX_graka> synthesized.
+
+
+Synthesizing Unit <BUF8_MXILINX_HVLogik>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf".
+Unit <BUF8_MXILINX_HVLogik> synthesized.
+
+
+Synthesizing Unit <AND8_MXILINX_HVLogik>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf".
+Unit <AND8_MXILINX_HVLogik> synthesized.
+
+
+Synthesizing Unit <FTCE_MXILINX_HVLogik>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf".
+Unit <FTCE_MXILINX_HVLogik> synthesized.
+
+
+Synthesizing Unit <rgb_latch_MUSER_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <rgb_latch_MUSER_graka> synthesized.
+
+
+Synthesizing Unit <CB4CE_MXILINX_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <CB4CE_MXILINX_graka> synthesized.
+
+
+Synthesizing Unit <FD8_MXILINX_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <FD8_MXILINX_graka> synthesized.
+
+
+Synthesizing Unit <addrmux_MUSER_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <addrmux_MUSER_graka> synthesized.
+
+
+Synthesizing Unit <CB8CE_MXILINX_HVLogik>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf".
+Unit <CB8CE_MXILINX_HVLogik> synthesized.
+
+
+Synthesizing Unit <CB16CE_MXILINX_HVLogik>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf".
+Unit <CB16CE_MXILINX_HVLogik> synthesized.
+
+
+Synthesizing Unit <addrmux16_MUSER_graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <addrmux16_MUSER_graka> synthesized.
+
+
+Synthesizing Unit <hcounter_MUSER_HVLogik>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf".
+WARNING:Xst:646 - Signal <XLXN_19<15:9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <XLXN_19<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <hcounter_MUSER_HVLogik> synthesized.
+
+
+Synthesizing Unit <hvlogik>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf".
+Unit <hvlogik> synthesized.
+
+
+Synthesizing Unit <graka>.
+    Related source file is "/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf".
+Unit <graka> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 53
+ Flip-Flops                                            : 53
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1348 - Unit BUFE8_MXILINX_graka is merged (output interface has tristates)
+
+Optimizing unit <graka> ...
+
+Optimizing unit <D2_4E_MXILINX_graka> ...
+
+Optimizing unit <FDC_MXILINX_graka> ...
+  implementation constraint: INIT=0	 : U0
+
+Optimizing unit <OBUFE_MXILINX_graka> ...
+
+Optimizing unit <FD_MXILINX_graka> ...
+  implementation constraint: INIT=0	 : U0
+
+Optimizing unit <M2_1_MXILINX_graka> ...
+
+Optimizing unit <FTCE_MXILINX_graka> ...
+  implementation constraint: INIT=0	 : I_36_35
+
+Optimizing unit <BUF8_MXILINX_HVLogik> ...
+
+Optimizing unit <AND8_MXILINX_HVLogik> ...
+
+Optimizing unit <FTCE_MXILINX_HVLogik> ...
+  implementation constraint: INIT=0	 : I_36_35
+
+Optimizing unit <rgb_latch_MUSER_graka> ...
+
+Optimizing unit <CB4CE_MXILINX_graka> ...
+
+Optimizing unit <FD8_MXILINX_graka> ...
+
+Optimizing unit <addrmux_MUSER_graka> ...
+
+Optimizing unit <CB8CE_MXILINX_HVLogik> ...
+
+Optimizing unit <CB16CE_MXILINX_HVLogik> ...
+
+Optimizing unit <addrmux16_MUSER_graka> ...
+
+Optimizing unit <hcounter_MUSER_HVLogik> ...
+
+Optimizing unit <hvlogik> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : graka.ngr
+Top Level Output File Name         : graka
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500 CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 63
+
+Cell Usage :
+# BELS                             : 148
+#      AND2                        : 27
+#      AND3                        : 9
+#      AND4                        : 9
+#      AND5                        : 5
+#      BUF                         : 8
+#      GND                         : 27
+#      INV                         : 11
+#      OR2                         : 18
+#      VCC                         : 6
+#      XOR2                        : 28
+# FlipFlops/Latches                : 53
+#      FDCE                        : 28
+#      FDCP                        : 25
+# IO Buffers                       : 63
+#      IBUF                        : 28
+#      IOBUFE                      : 8
+#      OBUF                        : 21
+#      OBUFT                       : 6
+# Others                           : 24
+#      AND2B1                      : 16
+#      AND3B1                      : 4
+#      AND3B2                      : 2
+#      NOR3                        : 2
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.90 secs
+ 
+--> 
+
+
+Total memory usage is 520748 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

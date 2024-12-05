@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf</arg>&quot; line <arg fmt="%d" index="2">1014</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D0</arg>&apos; of component &apos;<arg fmt="%s" index="4">D2_4E_MXILINX_graka</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf</arg>&quot; line <arg fmt="%d" index="2">1014</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D1</arg>&apos; of component &apos;<arg fmt="%s" index="4">D2_4E_MXILINX_graka</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf</arg>&quot; line <arg fmt="%d" index="2">1014</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D2</arg>&apos; of component &apos;<arg fmt="%s" index="4">D2_4E_MXILINX_graka</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf</arg>&quot; line <arg fmt="%d" index="2">1014</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D3</arg>&apos; of component &apos;<arg fmt="%s" index="4">D2_4E_MXILINX_graka</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf</arg>&quot; line <arg fmt="%d" index="2">1047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_graka</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf</arg>&quot; line <arg fmt="%d" index="2">1047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_graka</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf</arg>&quot; line <arg fmt="%d" index="2">1047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_graka</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf</arg>&quot; line <arg fmt="%d" index="2">669</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">FD_MXILINX_graka</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf</arg>&quot; line <arg fmt="%d" index="2">674</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">FD_MXILINX_graka</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf</arg>&quot; line <arg fmt="%d" index="2">902</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB8CE_MXILINX_HVLogik</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf</arg>&quot; line <arg fmt="%d" index="2">902</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB8CE_MXILINX_HVLogik</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf</arg>&quot; line <arg fmt="%d" index="2">773</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16CE_MXILINX_HVLogik</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf</arg>&quot; line <arg fmt="%d" index="2">773</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16CE_MXILINX_HVLogik</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXN_19&lt;15:9&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXN_19&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1348" delta="new" >Unit <arg fmt="%s" index="1">BUFE8_MXILINX_graka</arg> is merged (output interface has tristates)
+</msg>
+
+</messages>
+

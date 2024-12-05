@@ -1,0 +1,249 @@
+V3 119
+FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux.vhf 2024/12/04.17:58:08 P.20131013
+EN work/M2_1_MXILINX_addrmux 1733346048 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_addrmux/BEHAVIORAL 1733346049 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux.vhf \
+      EN work/M2_1_MXILINX_addrmux 1733346048 CP AND2B1 CP OR2 CP AND2
+EN work/addrmux 1733346050 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/addrmux/BEHAVIORAL 1733346051 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux.vhf EN work/addrmux 1733346050 \
+      CP M2_1_MXILINX_addrmux
+FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux16.vhf 2024/12/04.17:58:08 P.20131013
+EN work/M2_1_MXILINX_addrmux16 1733346036 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux16.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_addrmux16/BEHAVIORAL 1733346037 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux16.vhf \
+      EN work/M2_1_MXILINX_addrmux16 1733346036 CP AND2B1 CP OR2 CP AND2
+EN work/addrmux_MUSER_addrmux16 1733346038 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux16.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/addrmux_MUSER_addrmux16/BEHAVIORAL 1733346039 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux16.vhf \
+      EN work/addrmux_MUSER_addrmux16 1733346038 CP M2_1_MXILINX_addrmux16
+EN work/addrmux16 1733346040 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux16.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/addrmux16/BEHAVIORAL 1733346041 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/addrmux16.vhf \
+      EN work/addrmux16 1733346040 CP addrmux_MUSER_addrmux16
+FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf 2024/12/04.17:59:53 P.20131013
+EN work/FD_MXILINX_graka 1733346010 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD_MXILINX_graka/BEHAVIORAL 1733346011 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/FD_MXILINX_graka 1733346010 CP GND CP FDCP
+EN work/FD8_MXILINX_graka 1733346012 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD8_MXILINX_graka/BEHAVIORAL 1733346013 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/FD8_MXILINX_graka 1733346012 CP FD_MXILINX_graka
+EN work/BUFE8_MXILINX_graka 1733346014 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/BUFE8_MXILINX_graka/BEHAVIORAL 1733346015 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/BUFE8_MXILINX_graka 1733346014 CP BUFE
+EN work/FDC_MXILINX_graka 1733346016 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FDC_MXILINX_graka/BEHAVIORAL 1733346017 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/FDC_MXILINX_graka 1733346016 CP GND CP FDCP
+EN work/FTCE_MXILINX_graka 1733346018 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_graka/BEHAVIORAL 1733346019 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/FTCE_MXILINX_graka 1733346018 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_graka 1733346020 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_graka/BEHAVIORAL 1733346021 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/CB4CE_MXILINX_graka 1733346020 CP AND4 CP AND3 CP AND2 CP VCC \
+      CP FTCE_MXILINX_graka
+EN work/D2_4E_MXILINX_graka 1733346022 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D2_4E_MXILINX_graka/BEHAVIORAL 1733346023 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/D2_4E_MXILINX_graka 1733346022 CP AND3 CP AND3B1 CP AND3B2
+EN work/OBUFE_MXILINX_graka 1733346024 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OBUFE_MXILINX_graka/BEHAVIORAL 1733346025 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/OBUFE_MXILINX_graka 1733346024 CP OBUFT CP INV
+EN work/rgb_latch_MUSER_graka 1733346026 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/rgb_latch_MUSER_graka/BEHAVIORAL 1733346027 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/rgb_latch_MUSER_graka 1733346026 CP OBUFE_MXILINX_graka \
+      CP FD_MXILINX_graka
+EN work/M2_1_MXILINX_graka 1733346028 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_graka/BEHAVIORAL 1733346029 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/M2_1_MXILINX_graka 1733346028 CP AND2B1 CP OR2 CP AND2
+EN work/addrmux_MUSER_graka 1733346030 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/addrmux_MUSER_graka/BEHAVIORAL 1733346031 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/addrmux_MUSER_graka 1733346030 CP M2_1_MXILINX_graka
+EN work/addrmux16_MUSER_graka 1733346032 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/addrmux16_MUSER_graka/BEHAVIORAL 1733346033 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      EN work/addrmux16_MUSER_graka 1733346032 CP addrmux_MUSER_graka
+EN work/graka 1733346034 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/graka/BEHAVIORAL 1733346035 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/graka.vhf EN work/graka 1733346034 \
+      CP rgb_latch_MUSER_graka CP INV CP VCC CP D2_4E_MXILINX_graka \
+      CP addrmux16_MUSER_graka CP OR2 CP CB4CE_MXILINX_graka CP FDC_MXILINX_graka \
+      CP BUFE8_MXILINX_graka CP FD8_MXILINX_graka CP hvlogik
+FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf 2024/12/04.17:58:08 P.20131013
+EN work/AND8_MXILINX_hcounter 1733346052 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/AND8_MXILINX_hcounter/BEHAVIORAL 1733346053 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf \
+      EN work/AND8_MXILINX_hcounter 1733346052 CP AND4 CP AND2
+EN work/BUF8_MXILINX_hcounter 1733346054 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/BUF8_MXILINX_hcounter/BEHAVIORAL 1733346055 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf \
+      EN work/BUF8_MXILINX_hcounter 1733346054 CP BUF
+EN work/FTCE_MXILINX_hcounter 1733346056 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_hcounter/BEHAVIORAL 1733346057 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf \
+      EN work/FTCE_MXILINX_hcounter 1733346056 CP XOR2 CP FDCE
+EN work/CB16CE_MXILINX_hcounter 1733346058 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB16CE_MXILINX_hcounter/BEHAVIORAL 1733346059 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf \
+      EN work/CB16CE_MXILINX_hcounter 1733346058 CP AND3 CP AND2 CP VCC CP AND4 \
+      CP AND5 CP FTCE_MXILINX_hcounter
+EN work/hcounter 1733346060 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/hcounter/BEHAVIORAL 1733346061 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/hcounter.vhf EN work/hcounter 1733346060 \
+      CP CB16CE_MXILINX_hcounter CP VCC CP BUF8_MXILINX_hcounter CP GND \
+      CP AND8_MXILINX_hcounter
+FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf 2024/12/04.17:58:08 P.20131013
+EN work/FTCE_MXILINX_HVLogik 1733345996 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_HVLogik/BEHAVIORAL 1733345997 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      EN work/FTCE_MXILINX_HVLogik 1733345996 CP XOR2 CP FDCE
+EN work/CB8CE_MXILINX_HVLogik 1733345998 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB8CE_MXILINX_HVLogik/BEHAVIORAL 1733345999 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      EN work/CB8CE_MXILINX_HVLogik 1733345998 CP AND5 CP AND2 CP AND3 CP AND4 CP VCC \
+      CP FTCE_MXILINX_HVLogik
+EN work/AND8_MXILINX_HVLogik 1733346000 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/AND8_MXILINX_HVLogik/BEHAVIORAL 1733346001 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      EN work/AND8_MXILINX_HVLogik 1733346000 CP AND4 CP AND2
+EN work/BUF8_MXILINX_HVLogik 1733346002 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/BUF8_MXILINX_HVLogik/BEHAVIORAL 1733346003 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      EN work/BUF8_MXILINX_HVLogik 1733346002 CP BUF
+EN work/CB16CE_MXILINX_HVLogik 1733346004 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB16CE_MXILINX_HVLogik/BEHAVIORAL 1733346005 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      EN work/CB16CE_MXILINX_HVLogik 1733346004 CP AND3 CP AND2 CP VCC CP AND4 \
+      CP AND5 CP FTCE_MXILINX_HVLogik
+EN work/hcounter_MUSER_HVLogik 1733346006 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/hcounter_MUSER_HVLogik/BEHAVIORAL 1733346007 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      EN work/hcounter_MUSER_HVLogik 1733346006 CP CB16CE_MXILINX_HVLogik CP VCC \
+      CP BUF8_MXILINX_HVLogik CP GND CP AND8_MXILINX_HVLogik
+EN work/HVLogik 1733346008 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/HVLogik/BEHAVIORAL 1733346009 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/HVLogik.vhf EN work/HVLogik 1733346008 \
+      CP VCC CP GND CP AND5 CP NOR3 CP hcounter_MUSER_HVLogik \
+      CP CB8CE_MXILINX_HVLogik
+FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/rgb_latch.vhf 2024/12/04.17:58:08 P.20131013
+EN work/FD_MXILINX_rgb_latch 1733346042 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/rgb_latch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD_MXILINX_rgb_latch/BEHAVIORAL 1733346043 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/rgb_latch.vhf \
+      EN work/FD_MXILINX_rgb_latch 1733346042 CP GND CP FDCP
+EN work/OBUFE_MXILINX_rgb_latch 1733346044 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/rgb_latch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OBUFE_MXILINX_rgb_latch/BEHAVIORAL 1733346045 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/rgb_latch.vhf \
+      EN work/OBUFE_MXILINX_rgb_latch 1733346044 CP OBUFT CP INV
+EN work/rgb_latch 1733346046 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/rgb_latch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/rgb_latch/BEHAVIORAL 1733346047 \
+      FL /home/pdsilva/Projects/A_VGA_Xilinx1/graka/rgb_latch.vhf \
+      EN work/rgb_latch 1733346046 CP OBUFE_MXILINX_rgb_latch \
+      CP FD_MXILINX_rgb_latch
